@@ -2,7 +2,7 @@
 <fragment xmlns="http://jmix.io/schema/ui/fragment">
     <data>
         <instance id="userDc" class="org.izumi.jmix.fragmentsdc.entity.User" provided="true">
-            <loader id="userDl"/>
+            <loader id="userDl" provided="true"/>
         </instance>
     </data>
 
